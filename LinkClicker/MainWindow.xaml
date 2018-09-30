@@ -9,7 +9,8 @@
         ShowMaxRestoreButton="False"
         ShowMinButton="False"
         ResizeMode="NoResize"
-        Title="MainWindow" Height="70" Width="180" Topmost="True">
+        Height="70" Width="180" Topmost="True"
+        Closing="MainWindow_OnClosing">
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
